@@ -15,4 +15,4 @@ jobs:
       - name: Checkout workflow repository
         uses: actions/checkout@v2
       - name: Say Hello
-        uses: "asengupta/test-composite-action/.github/workflows/actions/run-ast-generation@main"
+        uses: "asengupta/test-composite-action@main"
