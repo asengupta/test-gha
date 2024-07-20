@@ -38,7 +38,7 @@ jobs:
         run: |
           git clone https://github.com/neopragma/cobol-samples.git
       - name: Run AST generation
-        uses: avishek-sen-gupta/cobol-rekt/.github/workflows/actions/run-ast-generation@main
+        uses: cobol-rekt/.github/workflows/actions/run-ast-generation@main
         with:
           programName: HELLO.CBL
           srcDir: cobol-samples/src/main/cobol
